@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+
+# VSCode
+*.code-workspace
+
+# file ignores
+.env
+*.env
