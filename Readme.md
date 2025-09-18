@@ -1,3 +1,3 @@
 # Python Workshop
 
-Das is eine Projekt für eine Python Schulung
+Das ist ein Projekt für eine Python Schulung
