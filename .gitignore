@@ -7,3 +7,9 @@ __pycache__/
 # file ignores
 .env
 *.env
+
+# path ignores
+tmp/
+temp/
+log/
+logs/
