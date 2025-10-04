@@ -1,15 +1,18 @@
 # Python
 __pycache__/
 
+
 # VSCode
 *.code-workspace
 
-# file ignores
-.env
-*.env
 
 # path ignores
 tmp/
 temp/
 log/
 logs/
+
+
+# file ignores
+.env
+*.env
