@@ -16,3 +16,8 @@ logs/
 # file ignores
 .env
 *.env
+*.log
+*.dat
+*.bak
+*.tmp
+*.sql
