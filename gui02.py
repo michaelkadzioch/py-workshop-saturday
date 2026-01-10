@@ -28,6 +28,24 @@ def main():
     btnAppClose = tkinter.Button(appWindow, text='Schließen', command=btnAppClose_click)
     btnAppClose.pack()
 
+    # Radiobuttons
+    radioVar = tkinter.StringVar()
+    radioVar.set('Option 1 gewählt')
+
+    radio1 = tkinter.Radiobutton(appWindow, text='Option 1', variable=radioVar, value='Option 1 gewählt')
+    radio1.pack()
+    radio2 = tkinter.Radiobutton(appWindow, text='Option 2', variable=radioVar, value='Option 2 gewählt')
+    radio2.pack()
+    radio3 = tkinter.Radiobutton(appWindow, text='Option 3', variable=radioVar, value='Option 3 gewählt')
+    radio3.pack()
+
+    # Combobox
+    combobox1Var = tkinter.StringVar()
+    combobox1Var.set('Option 1')
+
+    combobox1 = tkinter.OptionMenu(appWindow, combobox1Var, 'Option 1', 'Option 2', 'Option 3')
+    combobox1.pack()
+
 
     # App starten und Fenster als Loop offen halten.
     print('Hallo Welt!')
